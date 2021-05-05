@@ -1,0 +1,22 @@
+{
+    "seed": 42,
+    "epochs": 10,
+    "dataset": "MaskBaseDataset",
+    "augmentation": "CustomAugmentation2",
+    "resize": 384,
+    "batch_size": 32,
+    "valid_batch_size": 32,
+    "model": "Testload2",
+    "optimizer": "AdamP",
+    "lr": 1e-5,
+    "val_ratio": 0.0,
+    "criterion": "Custom",
+    "lr_decay_step": 20,
+    "log_interval": 20,
+    "name": "conf_28_36_efb4_customloss_adamp1e-5_noval",
+    "class_weights": "off",
+    "arcface": "off",
+    "arcface_margin_m": 0.5,
+    "multi": "off",
+    "no_validate": "on"
+}

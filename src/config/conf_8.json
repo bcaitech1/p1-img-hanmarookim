@@ -1,0 +1,17 @@
+{
+    "seed": 42,
+    "epochs": 50,
+    "dataset": "MaskSplitByProfileDataset",
+    "augmentation": "CustomAugmentation",
+    "resize": 224,
+    "batch_size": 64,
+    "valid_batch_size": 64,
+    "model": "EfficientNetModel",
+    "optimizer": "Adam",
+    "lr": 2e-2,
+    "val_ratio": 0.2,
+    "criterion": "focal",
+    "lr_decay_step": 20,
+    "log_interval": 20,
+    "name": "conf_8_focal_adam"
+}

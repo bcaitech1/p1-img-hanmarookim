@@ -1,0 +1,21 @@
+{
+    "seed": 42,
+    "epochs": 50,
+    "dataset": "MultiPredictMaskSplitByProfileDataset",
+    "augmentation": "CustomAugmentation2",
+    "resize": 224,
+    "batch_size": 64,
+    "valid_batch_size": 64,
+    "model": "MultiPredictModel",
+    "optimizer": "SGD",
+    "lr": 1e-2,
+    "val_ratio": 0.2,
+    "criterion": "focal",
+    "lr_decay_step": 20,
+    "log_interval": 20,
+    "name": "conf_23_focal_multipred_weightclass",
+    "class_weights": "on",
+    "arcface": "off",
+    "arcface_margin_m": 0.5,
+    "multi": "on"
+}

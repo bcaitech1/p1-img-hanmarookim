@@ -1,0 +1,22 @@
+{
+    "seed": 42,
+    "epochs": 10,
+    "dataset": "MaskSplitByProfileDataset",
+    "augmentation": "CustomAugmentation",
+    "resize": 224,
+    "batch_size": 64,
+    "valid_batch_size": 64,
+    "model": "EfficientNet4Model",
+    "optimizer": "AdamP",
+    "lr": 1e-5,
+    "val_ratio": 0.0,
+    "criterion": "focal",
+    "lr_decay_step": 20,
+    "log_interval": 20,
+    "name": "conf_38_focal_b4_1e-2",
+    "class_weights": "on",
+    "arcface": "off",
+    "arcface_margin_m": 0.5,
+    "multi": "off",
+    "no_validate":"on"
+}

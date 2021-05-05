@@ -1,0 +1,21 @@
+{
+    "seed": 42,
+    "epochs": 50,
+    "dataset": "MaskBaseDataset",
+    "augmentation": "CustomAugmentation2",
+    "resize": 384,
+    "batch_size": 32,
+    "valid_batch_size": 32,
+    "model": "ViTModel",
+    "optimizer": "SGD",
+    "lr": 1e-2,
+    "val_ratio": 0.2,
+    "criterion": "focal",
+    "lr_decay_step": 20,
+    "log_interval": 20,
+    "name": "conf_25_vit16_focal_weighted",
+    "class_weights": "on",
+    "arcface": "off",
+    "arcface_margin_m": 0.5,
+    "multi": "off"
+}
